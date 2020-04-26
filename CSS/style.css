@@ -1,0 +1,13 @@
+/* Header */
+@import url('./head.css');
+/* Navegation */
+@import url('./navegation.css');
+/* Content */
+@import url('./content.css');
+/* Footer */
+@import url('./footer.css');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}

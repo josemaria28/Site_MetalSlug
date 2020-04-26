@@ -1,0 +1,14 @@
+/* Title content */
+div.title{
+    background-color: rgb(16, 193, 216);
+}
+span.title{
+    background-color: rgb(216, 16, 16);
+}
+span.title::after, span.title::before {
+    content: ' : ';
+}
+/* Content */
+.content{
+    background-color: rgb(43, 177, 43);
+}
