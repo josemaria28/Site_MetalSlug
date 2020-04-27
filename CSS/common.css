@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    /* font-family: 'Press Start 2P', cursive; */
+}
+
+:root{
+    /* Color */
+    --main-color-yellow: yellow;
+    --main-color-orange: orange;
+    --main-color-white: white;
+    --main-color-black: black;
+    --main-color-purple: purple;
+    --main-texto-primary: 'Bangers', cursive;
+}

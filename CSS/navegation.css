@@ -2,27 +2,30 @@ nav{
     padding: 0.5rem 0rem 1rem 0rem;
     background-color: rgb(209, 185, 46);
 }
+span.textPrimary{
+    font-family: var(--main-texto-primary);
+}
 ul.menu{
     display: flex;
     justify-content: center;
     background-color: darkred;
 }
-span.titleMenu{
-    /* background-color: rgb(10, 87, 42); */
-    padding: 0rem 0.3rem;
-}
 a.linkMenu{
     text-decoration: none;
-    color: red;
+    color: var(--main-color-yellow);
 }
-a.linkMenu::after, a.linkMenu::before {
+/* a.linkMenu::after, a.linkMenu::before {
     content: ' : ';
-}
+} */
 li.itemMenu {
     list-style-type: none;
+    padding: 0rem 0.5rem;
 }
 
 /* Eventos */
 li.itemMenu:hover{
-    background-color: darkorchid;
+    background-color: var(--main-color-orange);
+}
+a.linkMenu:hover{
+    color: var(--main-color-purple);
 }
